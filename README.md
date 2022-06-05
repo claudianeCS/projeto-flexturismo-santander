@@ -8,3 +8,4 @@
         <li>CSS</li>
     </ul>
 
+<footer>Claudiane Costa</footer>
