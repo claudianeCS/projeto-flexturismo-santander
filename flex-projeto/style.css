@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital@1&family=Inter&family=Montserrat:wght@200&family=Orbitron:wght@500&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+
+}
+
+header{
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+header .list-items{
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items li a{
+    color: aliceblue;
+}
+
+header .menu{
+    justify-content: space-between;
+
+}
+
+
+.apresentaçao{
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentaçao .texto-apresentacao{
+    min-height: 200px;
+}
+
+.texto-apresentacao h1{
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.texto-apresentacao a{
+    background-color: #122A57;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 9px;
+    width: 200px;
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+}
+.texto-apresentacao p{
+    margin-bottom: 10px;
+}
+
+#quem-somos{    
+   flex-direction: row-reverse;
+   height: 66vh;
+   align-items: center;
+   justify-content: space-between;
+}
+#quem-somos p{
+    max-width: 350px;
+}
